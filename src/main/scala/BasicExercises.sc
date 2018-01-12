@@ -6,10 +6,10 @@ val Hello= "Hello World2"
   println(Hello)
 
 println("Parameters")
-def Hello2(Hello: String) Unit = {
+def Hello2(Hello: String): Unit = {
   val Hello = "Hello World3"
   println(Hello)
-  }
+}
 
 println("Return Types")
 def Hello3(Hello: String) : String = {
@@ -30,7 +30,7 @@ def String(Word: String, a: Int) : String = {
 }
 println(String("Hello", 3))
 
-prinln("String2")
+println("String2")
 def String2(Word: String, Word2: String, Letter: Char, Letter2: Char) : String ={
 
   val result = Word + Word2
