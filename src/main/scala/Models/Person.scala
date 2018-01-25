@@ -1,6 +1,9 @@
-abstract class Person {
+package Models
 
-  var fName : String
-  var lName : String
+abstract class Person {
+  //variables
+  var fName: String
+  var lName: String
+  var contactNumber: Int
 
 }
